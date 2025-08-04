@@ -328,6 +328,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+## 📊 Project Statistics
+
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=social)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=social)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/pulls)
+
+</div>
+
+## 🌟 Stargazers
+
+[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
+
 ## 🙏 Acknowledgments
 
 - Apple Security Framework
