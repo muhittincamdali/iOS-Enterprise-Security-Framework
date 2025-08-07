@@ -923,11 +923,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 
-![GitHub Stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=star&logoColor=gold&color=gold&label=Stars)
-![GitHub Forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=git&logoColor=white&color=blue&label=Forks)
-![GitHub Issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=red&label=Issues)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=green&label=PRs)
-![GitHub License](https://img.shields.io/github/license/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=purple&label=License)
+![GitHub Stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=gold&label=Stars&cacheSeconds=3600)
+![GitHub Forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=blue&label=Forks&cacheSeconds=3600)
+![GitHub Issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=red&label=Issues&cacheSeconds=3600)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=green&label=PRs&cacheSeconds=3600)
+![GitHub License](https://img.shields.io/github/license/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=purple&label=License&cacheSeconds=3600)
 
 </div>
 
@@ -952,12 +952,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=social)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=social)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/commits/master)
+[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/network)
+[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/pulls)
+[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/commits/master)
 
 ## 🌟 Stargazers
 
