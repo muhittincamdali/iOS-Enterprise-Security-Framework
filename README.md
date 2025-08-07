@@ -189,7 +189,6 @@
 ### 🔒 Encryption
 
 * **Data Encryption**: AES-256 encryption for sensitive data
-* **Network Encryption**: TLS/SSL and certificate pinning
 * **Key Management**: Secure key generation, storage, and rotation
 * **File Encryption**: Encrypted file storage and transmission
 * **Database Encryption**: Encrypted database and query protection
@@ -210,7 +209,6 @@
 
 ### 📋 Compliance
 
-* **GDPR Compliance**: European data protection compliance
 * **HIPAA Compliance**: Healthcare data protection compliance
 * **SOX Compliance**: Financial data protection compliance
 * **ISO 27001**: Information security management compliance
@@ -449,7 +447,6 @@ let networkSecurity = NetworkSecurityManager()
 let networkConfig = NetworkSecurityConfiguration()
 networkConfig.enableVPN = true
 networkConfig.enableCertificatePinning = true
-networkConfig.enableTLS = true
 networkConfig.allowedHosts = ["api.company.com", "cdn.company.com"]
 
 // Secure network request
@@ -474,7 +471,6 @@ networkSecurity.validateNetworkSecurity { result in
         print("✅ Network security validation successful")
         print("VPN active: \(validation.vpnActive)")
         print("Certificate valid: \(validation.certificateValid)")
-        print("TLS version: \(validation.tlsVersion)")
     case .failure(let error):
         print("❌ Network security validation failed: \(error)")
     }
@@ -574,17 +570,14 @@ gdprCompliance.handleDataSubjectRequest(
 
 ```swift
 // Audit logging manager
-let auditLogger = AuditLoggingManager()
 
 // Configure audit logging
-let auditConfig = AuditLogConfiguration()
 auditConfig.enableSecurityEvents = true
 auditConfig.enableDataAccess = true
 auditConfig.enableAuthentication = true
 auditConfig.enableCompliance = true
 
 // Log security event
-auditLogger.logSecurityEvent(
     event: .authenticationSuccess,
     userId: userId,
     details: ["method": "biometric", "device": "iPhone"]
@@ -598,7 +591,6 @@ auditLogger.logSecurityEvent(
 }
 
 // Generate audit report
-auditLogger.generateAuditReport(
     period: .monthly,
     configuration: auditConfig
 ) { result in
@@ -641,7 +633,6 @@ auditLogger.generateAuditReport(
 
 #### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework.git
 cd iOS-Enterprise-Security-Framework
 ```
 
@@ -687,7 +678,6 @@ Add the framework to your project:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework.git", from: "1.0.0")
 ]
 ```
 
@@ -703,7 +693,6 @@ dependencies: [
 
 ```bash
 # Clone the repository
-git clone https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework.git
 
 # Navigate to project directory
 cd iOS-Enterprise-Security-Framework
@@ -728,7 +717,6 @@ let securityConfig = SecurityConfiguration()
 securityConfig.enableBiometricAuth = true
 securityConfig.enableEncryption = true
 securityConfig.enableCompliance = true
-securityConfig.enableAuditLogging = true
 
 // Start security manager
 securityManager.start(with: securityConfig)
@@ -813,7 +801,6 @@ let securityConfig = SecurityConfiguration()
 securityConfig.enableBiometricAuth = true
 securityConfig.enableEncryption = true
 securityConfig.enableCompliance = true
-securityConfig.enableAuditLogging = true
 
 // Set security settings
 securityConfig.encryptionAlgorithm = .aes256
@@ -825,7 +812,6 @@ securityConfig.maxLoginAttempts = 5
 securityConfig.gdprCompliance = true
 securityConfig.hipaaCompliance = true
 securityConfig.soxCompliance = true
-securityConfig.auditLogRetention = 365 // days
 
 // Apply configuration
 securityManager.configure(securityConfig)
@@ -923,11 +909,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 
-![GitHub Stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=gold&label=Stars&cacheSeconds=3600)
-![GitHub Forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=blue&label=Forks&cacheSeconds=3600)
-![GitHub Issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=red&label=Issues&cacheSeconds=3600)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=green&label=PRs&cacheSeconds=3600)
-![GitHub License](https://img.shields.io/github/license/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&logoColor=white&color=purple&label=License&cacheSeconds=3600)
 
 </div>
 
@@ -944,7 +925,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 Stargazers Community
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
 
 **⭐ Star this repository if it helped you!**
 
@@ -952,13 +932,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 </div>
 
-[![GitHub stars](https://img.shields.io/github/stars/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/network)
-[![GitHub issues](https://img.shields.io/github/issues/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/pulls)
-[![GitHub contributors](https://img.shields.io/github/contributors/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/muhittincamdali/iOS-Enterprise-Security-Framework?style=for-the-badge&logo=github&cacheSeconds=3600)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/commits/master)
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
