@@ -944,7 +944,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🌟 Stargazers Community
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
+[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://starchart.cc/muhittincamdali/iOS-Enterprise-Security-Framework.svg)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
 
 **⭐ Star this repository if it helped you!**
 
@@ -961,4 +961,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Stargazers
 
-[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://reporoster.com/stars/muhittincamdali/iOS-Enterprise-Security-Framework)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
+[![Stargazers repo roster for @muhittincamdali/iOS-Enterprise-Security-Framework](https://starchart.cc/muhittincamdali/iOS-Enterprise-Security-Framework.svg)](https://github.com/muhittincamdali/iOS-Enterprise-Security-Framework/stargazers)
