@@ -1,5 +1,32 @@
 # Audit API
 
+<!-- TOC START -->
+## Table of Contents
+- [Audit API](#audit-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [AuditLoggingManager](#auditloggingmanager)
+  - [SecurityEventManager](#securityeventmanager)
+  - [ComplianceAuditManager](#complianceauditmanager)
+- [API Reference](#api-reference)
+  - [Audit Logging](#audit-logging)
+  - [Event Analysis](#event-analysis)
+  - [Security Event Tracking](#security-event-tracking)
+  - [Compliance Audit](#compliance-audit)
+  - [Report Generation](#report-generation)
+  - [Real-time Monitoring](#real-time-monitoring)
+- [Event Types](#event-types)
+  - [Security Events](#security-events)
+  - [Compliance Events](#compliance-events)
+  - [System Events](#system-events)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Audit API provides comprehensive audit logging and monitoring capabilities for enterprise iOS applications. It tracks security events, data access, authentication attempts, and compliance activities with detailed reporting and analysis.

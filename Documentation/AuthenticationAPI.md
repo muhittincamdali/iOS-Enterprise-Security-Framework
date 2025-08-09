@@ -1,5 +1,27 @@
 # Authentication API
 
+<!-- TOC START -->
+## Table of Contents
+- [Authentication API](#authentication-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [BiometricAuthenticationManager](#biometricauthenticationmanager)
+  - [CertificateAuthenticationManager](#certificateauthenticationmanager)
+  - [MultiFactorAuthenticationManager](#multifactorauthenticationmanager)
+- [API Reference](#api-reference)
+  - [Biometric Authentication](#biometric-authentication)
+  - [Certificate Authentication](#certificate-authentication)
+  - [Multi-Factor Authentication](#multi-factor-authentication)
+  - [Token Authentication](#token-authentication)
+  - [Session Management](#session-management)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Authentication API provides comprehensive authentication capabilities for enterprise iOS applications. It supports multiple authentication methods including biometric, certificate, token-based, and multi-factor authentication.

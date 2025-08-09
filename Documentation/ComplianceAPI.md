@@ -1,5 +1,28 @@
 # Compliance API
 
+<!-- TOC START -->
+## Table of Contents
+- [Compliance API](#compliance-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [GDPRComplianceManager](#gdprcompliancemanager)
+  - [HIPAAComplianceManager](#hipaacompliancemanager)
+  - [SOXComplianceManager](#soxcompliancemanager)
+- [API Reference](#api-reference)
+  - [GDPR Compliance](#gdpr-compliance)
+  - [HIPAA Compliance](#hipaa-compliance)
+  - [SOX Compliance](#sox-compliance)
+  - [General Compliance](#general-compliance)
+  - [Consent Management](#consent-management)
+  - [Data Retention](#data-retention)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Compliance API provides comprehensive compliance management for enterprise iOS applications. It supports GDPR, HIPAA, SOX, and other regulatory compliance requirements with automated compliance checking and reporting.

@@ -1,5 +1,28 @@
 # Network Security API
 
+<!-- TOC START -->
+## Table of Contents
+- [Network Security API](#network-security-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [NetworkSecurityManager](#networksecuritymanager)
+  - [VPNManager](#vpnmanager)
+  - [CertificatePinningManager](#certificatepinningmanager)
+- [API Reference](#api-reference)
+  - [Network Security](#network-security)
+  - [VPN Management](#vpn-management)
+  - [Certificate Pinning](#certificate-pinning)
+  - [TLS Configuration](#tls-configuration)
+  - [Network Threat Detection](#network-threat-detection)
+  - [Firewall Management](#firewall-management)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Network Security API provides comprehensive network security capabilities for iOS enterprise applications. It includes VPN management, certificate pinning, TLS configuration, and network threat detection.

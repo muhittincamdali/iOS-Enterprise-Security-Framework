@@ -1,5 +1,31 @@
 # Encryption API
 
+<!-- TOC START -->
+## Table of Contents
+- [Encryption API](#encryption-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [DataEncryptionManager](#dataencryptionmanager)
+  - [KeyManagementManager](#keymanagementmanager)
+  - [FileEncryptionManager](#fileencryptionmanager)
+- [API Reference](#api-reference)
+  - [Data Encryption](#data-encryption)
+  - [Key Management](#key-management)
+  - [File Encryption](#file-encryption)
+  - [Database Encryption](#database-encryption)
+  - [Memory Encryption](#memory-encryption)
+- [Supported Algorithms](#supported-algorithms)
+  - [Symmetric Encryption](#symmetric-encryption)
+  - [Asymmetric Encryption](#asymmetric-encryption)
+  - [Hashing Algorithms](#hashing-algorithms)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Encryption API provides enterprise-grade encryption capabilities for iOS applications. It supports multiple encryption algorithms, key management, and secure data handling with comprehensive security features.

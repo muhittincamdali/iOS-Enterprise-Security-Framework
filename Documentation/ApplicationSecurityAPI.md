@@ -1,5 +1,30 @@
 # Application Security API
 
+<!-- TOC START -->
+## Table of Contents
+- [Application Security API](#application-security-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [ApplicationSecurityManager](#applicationsecuritymanager)
+  - [CodeObfuscationManager](#codeobfuscationmanager)
+  - [TamperDetectionManager](#tamperdetectionmanager)
+- [API Reference](#api-reference)
+  - [Application Security](#application-security)
+  - [Code Obfuscation](#code-obfuscation)
+  - [Tamper Detection](#tamper-detection)
+  - [Jailbreak Detection](#jailbreak-detection)
+  - [Debugger Detection](#debugger-detection)
+  - [Runtime Protection](#runtime-protection)
+  - [Memory Protection](#memory-protection)
+  - [Code Injection Protection](#code-injection-protection)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Security Considerations](#security-considerations)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Application Security API provides comprehensive application security capabilities for iOS enterprise applications. It includes code obfuscation, tamper detection, jailbreak detection, and runtime protection.

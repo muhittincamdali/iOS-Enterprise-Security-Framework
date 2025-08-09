@@ -1,5 +1,45 @@
 # Audit Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Audit Guide](#audit-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Audit Overview](#audit-overview)
+- [Audit Logging](#audit-logging)
+  - [Basic Audit Setup](#basic-audit-setup)
+  - [Log Security Events](#log-security-events)
+  - [Log Data Access](#log-data-access)
+- [Compliance Reporting](#compliance-reporting)
+  - [GDPR Compliance](#gdpr-compliance)
+  - [HIPAA Compliance](#hipaa-compliance)
+  - [SOX Compliance](#sox-compliance)
+- [Security Events](#security-events)
+  - [Security Event Types](#security-event-types)
+  - [Log Security Incidents](#log-security-incidents)
+- [Data Access Logging](#data-access-logging)
+  - [Comprehensive Data Access Tracking](#comprehensive-data-access-tracking)
+  - [Data Classification Logging](#data-classification-logging)
+- [Audit Trail Management](#audit-trail-management)
+  - [Audit Trail Configuration](#audit-trail-configuration)
+  - [Audit Trail Operations](#audit-trail-operations)
+  - [Audit Trail Export](#audit-trail-export)
+- [Forensic Analysis](#forensic-analysis)
+  - [Forensic Investigation](#forensic-investigation)
+  - [Timeline Analysis](#timeline-analysis)
+  - [Anomaly Detection](#anomaly-detection)
+- [Best Practices](#best-practices)
+  - [Security Recommendations](#security-recommendations)
+  - [Performance Considerations](#performance-considerations)
+  - [Compliance Requirements](#compliance-requirements)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Information](#debug-information)
+- [API Reference](#api-reference)
+- [Examples](#examples)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Audit Guide provides comprehensive information about implementing enterprise-grade audit logging and compliance reporting features in iOS applications using the iOS Enterprise Security Framework.

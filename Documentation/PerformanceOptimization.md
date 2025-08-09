@@ -1,5 +1,53 @@
 # Performance Optimization
 
+<!-- TOC START -->
+## Table of Contents
+- [Performance Optimization](#performance-optimization)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Performance Overview](#performance-overview)
+- [Encryption Performance](#encryption-performance)
+  - [Hardware Acceleration](#hardware-acceleration)
+  - [Performance-Optimized Encryption](#performance-optimized-encryption)
+  - [Encryption Benchmarking](#encryption-benchmarking)
+- [Authentication Performance](#authentication-performance)
+  - [Optimized Biometric Authentication](#optimized-biometric-authentication)
+  - [Certificate Authentication Optimization](#certificate-authentication-optimization)
+  - [Authentication Performance Monitoring](#authentication-performance-monitoring)
+- [Network Security Performance](#network-security-performance)
+  - [Optimized Network Security](#optimized-network-security)
+  - [TLS Performance Optimization](#tls-performance-optimization)
+  - [Network Performance Monitoring](#network-performance-monitoring)
+- [Memory Management](#memory-management)
+  - [Optimized Memory Usage](#optimized-memory-usage)
+  - [Memory Monitoring](#memory-monitoring)
+  - [Memory Cleanup](#memory-cleanup)
+- [Battery Optimization](#battery-optimization)
+  - [Battery-Efficient Operations](#battery-efficient-operations)
+  - [Battery Impact Monitoring](#battery-impact-monitoring)
+  - [Power-Aware Security](#power-aware-security)
+- [Caching Strategies](#caching-strategies)
+  - [Intelligent Caching](#intelligent-caching)
+  - [Cache Performance](#cache-performance)
+  - [Cache Optimization](#cache-optimization)
+- [Performance Monitoring](#performance-monitoring)
+  - [Real-time Performance Monitoring](#real-time-performance-monitoring)
+  - [Performance Metrics](#performance-metrics)
+  - [Performance Alerts](#performance-alerts)
+- [Best Practices](#best-practices)
+  - [Performance Optimization Guidelines](#performance-optimization-guidelines)
+  - [Performance Testing](#performance-testing)
+  - [Performance Optimization Checklist](#performance-optimization-checklist)
+- [Troubleshooting](#troubleshooting)
+  - [Common Performance Issues](#common-performance-issues)
+  - [Performance Debugging](#performance-debugging)
+- [Resources](#resources)
+  - [Documentation](#documentation)
+  - [Examples](#examples)
+  - [External Resources](#external-resources)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Performance Optimization Guide provides comprehensive information about optimizing the performance of enterprise security features in iOS applications using the iOS Enterprise Security Framework.

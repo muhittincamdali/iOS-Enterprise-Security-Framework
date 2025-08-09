@@ -1,5 +1,50 @@
 # Encryption Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Encryption Guide](#encryption-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Encryption Overview](#encryption-overview)
+- [Symmetric Encryption](#symmetric-encryption)
+  - [AES-256-GCM Encryption](#aes-256-gcm-encryption)
+  - [Encrypt Data with AES](#encrypt-data-with-aes)
+  - [Decrypt Data with AES](#decrypt-data-with-aes)
+  - [ChaCha20-Poly1305 Encryption](#chacha20-poly1305-encryption)
+- [Asymmetric Encryption](#asymmetric-encryption)
+  - [RSA-4096 Encryption](#rsa-4096-encryption)
+  - [Generate RSA Key Pair](#generate-rsa-key-pair)
+  - [Encrypt with RSA](#encrypt-with-rsa)
+  - [ECC Encryption](#ecc-encryption)
+- [Key Management](#key-management)
+  - [Key Generation](#key-generation)
+  - [Key Storage](#key-storage)
+  - [Key Rotation](#key-rotation)
+  - [Key Retrieval](#key-retrieval)
+- [Data Encryption](#data-encryption)
+  - [In-Memory Encryption](#in-memory-encryption)
+  - [Secure Data Storage](#secure-data-storage)
+- [File Encryption](#file-encryption)
+  - [File Encryption Setup](#file-encryption-setup)
+  - [Encrypt Files](#encrypt-files)
+  - [Decrypt Files](#decrypt-files)
+  - [Directory Encryption](#directory-encryption)
+- [Database Encryption](#database-encryption)
+  - [SQLite Encryption](#sqlite-encryption)
+  - [Encrypt Database](#encrypt-database)
+  - [Encrypt Specific Columns](#encrypt-specific-columns)
+- [Best Practices](#best-practices)
+  - [Security Recommendations](#security-recommendations)
+  - [Performance Considerations](#performance-considerations)
+  - [Compliance Requirements](#compliance-requirements)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Information](#debug-information)
+- [API Reference](#api-reference)
+- [Examples](#examples)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Encryption Guide provides comprehensive information about implementing enterprise-grade encryption features in iOS applications using the iOS Enterprise Security Framework.

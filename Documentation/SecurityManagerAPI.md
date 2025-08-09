@@ -1,5 +1,25 @@
 # Security Manager API
 
+<!-- TOC START -->
+## Table of Contents
+- [Security Manager API](#security-manager-api)
+- [Overview](#overview)
+- [Core Components](#core-components)
+  - [EnterpriseSecurityManager](#enterprisesecuritymanager)
+  - [SecurityConfiguration](#securityconfiguration)
+- [API Reference](#api-reference)
+  - [Initialization](#initialization)
+  - [Authentication Management](#authentication-management)
+  - [Encryption Management](#encryption-management)
+  - [Compliance Management](#compliance-management)
+  - [Audit Logging](#audit-logging)
+- [Error Handling](#error-handling)
+- [Best Practices](#best-practices)
+- [Examples](#examples)
+- [Related Documentation](#related-documentation)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Security Manager API provides the core functionality for enterprise security operations in iOS applications. This API serves as the central hub for all security-related operations including authentication, encryption, compliance, and audit logging.

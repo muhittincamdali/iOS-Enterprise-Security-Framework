@@ -1,5 +1,48 @@
 # Authentication Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Authentication Guide](#authentication-guide)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Authentication Overview](#authentication-overview)
+- [Biometric Authentication](#biometric-authentication)
+  - [Basic Biometric Setup](#basic-biometric-setup)
+  - [Check Biometric Availability](#check-biometric-availability)
+  - [Authenticate with Biometrics](#authenticate-with-biometrics)
+  - [Custom Biometric Implementation](#custom-biometric-implementation)
+- [Certificate Authentication](#certificate-authentication)
+  - [Certificate Setup](#certificate-setup)
+  - [Validate Certificate](#validate-certificate)
+  - [Authenticate with Certificate](#authenticate-with-certificate)
+- [Multi-Factor Authentication](#multi-factor-authentication)
+  - [MFA Setup](#mfa-setup)
+  - [Setup MFA for User](#setup-mfa-for-user)
+  - [Authenticate with MFA](#authenticate-with-mfa)
+- [Single Sign-On](#single-sign-on)
+  - [SSO Configuration](#sso-configuration)
+  - [SSO Authentication](#sso-authentication)
+- [Device Authentication](#device-authentication)
+  - [Device Fingerprinting](#device-fingerprinting)
+  - [Device Validation](#device-validation)
+- [Session Management](#session-management)
+  - [Session Configuration](#session-configuration)
+  - [Session Operations](#session-operations)
+- [Access Control](#access-control)
+  - [Role-Based Access Control](#role-based-access-control)
+  - [Permission Management](#permission-management)
+- [Best Practices](#best-practices)
+  - [Security Recommendations](#security-recommendations)
+  - [Performance Considerations](#performance-considerations)
+  - [Compliance Requirements](#compliance-requirements)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Information](#debug-information)
+- [API Reference](#api-reference)
+- [Examples](#examples)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Authentication Guide provides comprehensive information about implementing enterprise-grade authentication features in iOS applications using the iOS Enterprise Security Framework.

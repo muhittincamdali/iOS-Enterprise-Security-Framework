@@ -1,5 +1,46 @@
 # Key Management API
 
+<!-- TOC START -->
+## Table of Contents
+- [Key Management API](#key-management-api)
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Key Management Overview](#key-management-overview)
+- [Key Types](#key-types)
+  - [Symmetric Keys](#symmetric-keys)
+  - [Asymmetric Keys](#asymmetric-keys)
+  - [Key Usage](#key-usage)
+- [Key Generation](#key-generation)
+  - [Basic Key Generation](#basic-key-generation)
+  - [Advanced Key Generation](#advanced-key-generation)
+  - [Key Generation with Attributes](#key-generation-with-attributes)
+- [Key Storage](#key-storage)
+  - [Keychain Storage](#keychain-storage)
+  - [HSM Storage](#hsm-storage)
+  - [Secure Enclave Storage](#secure-enclave-storage)
+- [Key Rotation](#key-rotation)
+  - [Automatic Key Rotation](#automatic-key-rotation)
+  - [Manual Key Rotation](#manual-key-rotation)
+  - [Key Rotation with Migration](#key-rotation-with-migration)
+- [Key Retrieval](#key-retrieval)
+  - [Basic Key Retrieval](#basic-key-retrieval)
+  - [Key Retrieval with Authentication](#key-retrieval-with-authentication)
+  - [Key Retrieval by Attributes](#key-retrieval-by-attributes)
+- [Key Destruction](#key-destruction)
+  - [Secure Key Destruction](#secure-key-destruction)
+  - [Key Destruction with Verification](#key-destruction-with-verification)
+- [HSM Integration](#hsm-integration)
+  - [HSM Configuration](#hsm-configuration)
+  - [HSM Key Operations](#hsm-key-operations)
+- [API Reference](#api-reference)
+  - [KeyManager Class](#keymanager-class)
+  - [Key Types](#key-types)
+  - [Configuration Types](#configuration-types)
+- [Examples](#examples)
+- [Best Practices](#best-practices)
+<!-- TOC END -->
+
+
 ## Overview
 
 The Key Management API provides comprehensive key management capabilities for the iOS Enterprise Security Framework. This API handles key generation, storage, rotation, and lifecycle management for enterprise security applications.

@@ -1,5 +1,40 @@
 # Getting Started Guide
 
+<!-- TOC START -->
+## Table of Contents
+- [Getting Started Guide](#getting-started-guide)
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Swift Package Manager](#swift-package-manager)
+  - [Manual Installation](#manual-installation)
+- [Quick Start](#quick-start)
+  - [1. Import the Framework](#1-import-the-framework)
+  - [2. Initialize the Security Manager](#2-initialize-the-security-manager)
+  - [3. Basic Encryption](#3-basic-encryption)
+  - [4. Certificate Management](#4-certificate-management)
+  - [5. Compliance Reporting](#5-compliance-reporting)
+- [Configuration](#configuration)
+  - [Security Levels](#security-levels)
+  - [Encryption Algorithms](#encryption-algorithms)
+- [Best Practices](#best-practices)
+  - [1. Security Level Selection](#1-security-level-selection)
+  - [2. Key Management](#2-key-management)
+  - [3. Certificate Management](#3-certificate-management)
+  - [4. Compliance](#4-compliance)
+- [Examples](#examples)
+  - [Basic Encryption Example](#basic-encryption-example)
+  - [Certificate Pinning Example](#certificate-pinning-example)
+  - [Compliance Example](#compliance-example)
+- [Troubleshooting](#troubleshooting)
+  - [Common Issues](#common-issues)
+  - [Debug Mode](#debug-mode)
+- [Next Steps](#next-steps)
+- [Support](#support)
+- [License](#license)
+<!-- TOC END -->
+
+
 ## Introduction
 
 Welcome to the iOS Enterprise Security Framework! This guide will help you get started with implementing enterprise-grade security features in your iOS applications.
