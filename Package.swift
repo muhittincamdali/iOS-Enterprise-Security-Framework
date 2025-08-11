@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "iOS-Enterprise-Security-Framework",
     platforms: [
-        .iOS(.v17),
+        .iOS(.v15),
         .macOS(.v14),
         .watchOS(.v10),
         .tvOS(.v17)
