@@ -1,0 +1,35 @@
+Fetching https://github.com/apple/swift-security.git
+Fetching https://github.com/apple/swift-json.git
+Updating https://github.com/apple/swift-testing.git
+Updating https://github.com/apple/swift-metrics.git
+Updating https://github.com/apple/swift-log.git
+Updating https://github.com/apple/swift-nio-ssl.git
+warning: 'swift-security': skipping cache due to an error: Failed to clone repository https://github.com/apple/swift-security.git:
+    Cloning into bare repository '/Users/muhittincamdali/Library/Caches/org.swift.swiftpm/repositories/swift-security-63be7072'...
+    remote: Repository not found.
+    fatal: repository 'https://github.com/apple/swift-security.git/' not found
+Updating https://github.com/apple/swift-crypto.git
+warning: 'swift-json': skipping cache due to an error: Failed to clone repository https://github.com/apple/swift-json.git:
+    Cloning into bare repository '/Users/muhittincamdali/Library/Caches/org.swift.swiftpm/repositories/swift-json-8fd23e64'...
+    remote: Repository not found.
+    fatal: repository 'https://github.com/apple/swift-json.git/' not found
+Fetching https://github.com/apple/swift-security.git
+Fetching https://github.com/apple/swift-json.git
+Updated https://github.com/apple/swift-testing.git (1.38s)
+Updated https://github.com/apple/swift-crypto.git (1.38s)
+Updated https://github.com/apple/swift-metrics.git (1.38s)
+Updated https://github.com/apple/swift-log.git (1.38s)
+Updated https://github.com/apple/swift-nio-ssl.git (1.38s)
+warning: 'swift-json': skipping cache due to an error: Failed to clone repository https://github.com/apple/swift-json.git:
+    Cloning into bare repository '/Users/muhittincamdali/Library/Caches/org.swift.swiftpm/repositories/swift-json-8fd23e64'...
+    remote: Repository not found.
+    fatal: repository 'https://github.com/apple/swift-json.git/' not found
+warning: 'swift-security': skipping cache due to an error: Failed to clone repository https://github.com/apple/swift-security.git:
+    Cloning into bare repository '/Users/muhittincamdali/Library/Caches/org.swift.swiftpm/repositories/swift-security-63be7072'...
+    remote: Repository not found.
+    fatal: repository 'https://github.com/apple/swift-security.git/' not found
+error: Failed to clone repository https://github.com/apple/swift-security.git:
+    Cloning into bare repository '/Users/muhittincamdali/Desktop/Cursor Projects/GitHub/iOS-Enterprise-Security-Framework/.build/repositories/swift-security-63be7072'...
+    remote: Repository not found.
+    fatal: repository 'https://github.com/apple/swift-security.git/' not found
+error: 'ios-enterprise-security-framework': invalid custom path 'Tests/EnterpriseSecurityTests' for target 'EnterpriseSecurityTests'
